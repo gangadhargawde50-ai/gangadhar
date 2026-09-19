@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naveen Government College Ghotiya</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,"Noto Sans Devanagari",sans-serif;color:#222;background:#f7f9fc}
+header{position:sticky;top:0;z-index:10;background:#fff;box-shadow:0 2px 10px #0002}
+.nav{max-width:1150px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:10px 18px}
+.brand{display:flex;align-items:center;gap:12px}.brand img{width:58px;height:58px;object-fit:contain}.brand h1{font-size:19px;margin:0;color:#123b68}.brand small{color:#666}
+nav a{margin:0 7px;text-decoration:none;color:#123b68;font-weight:600;font-size:14px}
+.hero{min-height:410px;background:linear-gradient(#082c50aa,#082c5077),url("college_photo_1.jpg") center/cover;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;padding:30px}
+.hero h2{font-size:38px;margin:10px}.hero p{font-size:18px}
+.btn{display:inline-block;padding:11px 18px;border-radius:7px;background:#fff;color:#123b68;text-decoration:none;font-weight:bold;margin:5px}
+section{max-width:1150px;margin:auto;padding:55px 18px}h2.section-title{text-align:center;color:#123b68;margin-bottom:28px}
+.cardgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#fff;padding:25px;border-radius:12px;box-shadow:0 3px 14px #00000012}
+.card h3{color:#123b68;margin-top:0}.course{text-align:center;font-size:22px;font-weight:bold}
+.notice{background:#fff;border-left:5px solid #123b68;padding:15px;margin:10px 0;border-radius:5px}
+table{width:100%;border-collapse:collapse;background:#fff}th,td{border:1px solid #ddd;padding:12px;text-align:left}th{background:#123b68;color:#fff}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.gallery img{width:100%;height:280px;object-fit:cover;border-radius:10px}
+.contact{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+footer{background:#123b68;color:#fff;text-align:center;padding:25px}
+@media(max-width:750px){nav{display:none}.cardgrid,.contact,.gallery{grid-template-columns:1fr}.hero h2{font-size:28px}.brand h1{font-size:16px}}
+</style>
+</head>
+<body>
+<header><div class="nav">
+<div class="brand"><img src="college_logo.png" alt="College Logo"><div><h1>Naveen Government College Ghotiya</h1><small>नवीन शासकीय महाविद्यालय - घोटिया</small></div></div>
+<nav><a href="#home">Home</a><a href="#about">About</a><a href="#admission">Admission</a><a href="#faculty">Faculty</a><a href="#notice">Notice</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<section class="hero" id="home"><div><h2>नवीन शासकीय महाविद्यालय - घोटिया</h2><p>Naveen Government College Ghotiya</p><p>शैक्षणिक सत्र 2026-27</p><a class="btn" href="#admission">Admission</a><a class="btn" href="#notice">Latest Notices</a></div></section>
+
+<section id="about"><h2 class="section-title">महाविद्यालय के बारे में</h2>
+<div class="card"><h3>Principal</h3><p><b>श्री दीपक मेष्राम</b></p><p>नवीन शासकीय महाविद्यालय - घोटिया</p><p>महाविद्यालय में विद्यार्थियों को गुणवत्तापूर्ण उच्च शिक्षा एवं बेहतर शैक्षणिक वातावरण उपलब्ध कराने का प्रयास किया जाता है।</p></div>
+</section>
+
+<section id="admission"><h2 class="section-title">Admission / प्रवेश</h2>
+<div class="cardgrid">
+<div class="card course"><h3>B.A.</h3><p>Bachelor of Arts</p></div>
+<div class="card course"><h3>B.Sc.</h3><p>Bachelor of Science</p></div>
+<div class="card course"><h3>B.Com.</h3><p>Bachelor of Commerce</p></div>
+</div>
+<div class="card" style="margin-top:20px"><h3>प्रवेश संबंधी सूचना</h3><p>प्रवेश तिथि, पात्रता, शुल्क एवं आवश्यक दस्तावेज संबंधी जानकारी के लिए महाविद्यालय की नवीनतम सूचना देखें।</p></div>
+</section>
+
+<section id="faculty"><h2 class="section-title">Faculty / Staff</h2>
+<table><tr><th>क्रमांक</th><th>नाम</th><th>पद / विषय</th></tr>
+<tr><td>1</td><td>श्री दीपक मेष्राम</td><td>प्राचार्य</td></tr>
+<tr><td>2</td><td>—</td><td>Faculty / Staff</td></tr>
+<tr><td>3</td><td>—</td><td>Faculty / Staff</td></tr>
+</table>
+<p style="color:#666">* अन्य शिक्षक एवं कर्मचारियों का विवरण उपलब्ध होने पर यहाँ जोड़ा जा सकता है।</p>
+</section>
+
+<section id="notice"><h2 class="section-title">Notice Board / सूचना पटल</h2>
+<div class="notice"><b>नवीन सूचना:</b> महाविद्यालय की महत्वपूर्ण सूचना यहाँ प्रदर्शित की जाएगी।</div>
+<div class="notice"><b>Admission Notice:</b> प्रवेश संबंधी नवीन जानकारी यहाँ प्रदर्शित की जाएगी।</div>
+<div class="notice"><b>Examination:</b> परीक्षा संबंधी सूचना यहाँ प्रदर्शित की जाएगी।</div>
+</section>
+
+<section id="gallery"><h2 class="section-title">Gallery</h2>
+<div class="gallery"><img src="college_photo_1.jpg" alt="College Photo"><img src="college_photo_2.jpg" alt="College Photo"></div>
+</section>
+
+<section id="contact"><h2 class="section-title">Contact Us</h2>
+<div class="contact"><div class="card"><h3>महाविद्यालय संपर्क</h3><p><b>Address:</b> जल्द जोड़ा जाएगा</p><p><b>Mobile:</b> जल्द जोड़ा जाएगा</p><p><b>Email:</b> जल्द जोड़ा जाएगा</p></div>
+<div class="card"><h3>Office Hours</h3><p>सोमवार से शनिवार</p><p>समय: जल्द जोड़ा जाएगा</p></div></div>
+</section>
+
+<footer><p>© 2026 Naveen Government College Ghotiya. All Rights Reserved.</p></footer>
+</body></html>
